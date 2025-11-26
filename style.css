@@ -509,13 +509,24 @@ box-sizing:border-box;
   }
 
   .hero-points {
-    text-align: left;
-    padding-left: 1rem;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .hero-points li {
-    font-size: 18px;
-    margin-bottom: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+    padding-left: 1.5rem; /* Ensures consistent left alignment */
+  }
+
+  .hero-points li img {
+    width: 22px;
+    flex-shrink: 0; /* Stops icon from shrinking */
   }
 
   .hero-buttons {
