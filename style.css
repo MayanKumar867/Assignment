@@ -611,7 +611,7 @@ header {
 
 
 /************  MOBILE VIEW (<= 768px)  ************/
-@media (max-width: 768px) {
+@media (max-width: 775px) {
 
     /* Navbar */
     header {
